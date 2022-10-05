@@ -8,14 +8,19 @@
     "build": "parcel build index.html"
   },
   "dependencies": {
-    "videojs": "1.0.0",
+    "video.js": "7.20.3",
+    "@videojs/http-streaming": "2.15.0",
     "videojs-contrib-quality-levels": "2.0.9",
     "videojs-http-source-selector": "1.1.6"
   },
   "devDependencies": {
     "@babel/core": "7.2.0",
-    "parcel-bundler": "^1.6.1",
-    "node-sass": "latest"
+    "node-sass": "latest",
+    "parcel-bundler": "^1.6.1"
   },
-  "keywords": ["videojs", "css", "skin"]
+  "keywords": [
+    "videojs",
+    "css",
+    "skin"
+  ]
 }
